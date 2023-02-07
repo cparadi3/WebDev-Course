@@ -1,0 +1,101 @@
+/*Style sheet for Week 2 Assignment*/
+
+* {
+    box-sizing: border-box;
+}
+#box {
+    background-color: gray;
+    border: 3px solid black;
+    height: 150px;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    margin-left: 1.25%;
+  }
+h1 {
+    text-align: center;
+    font-size: 26.25px;
+}
+.row {
+    width: 100%;
+}
+
+p {
+    font-family: Helvetica;
+    color: black;
+    float:left;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 15px;
+  }
+
+  .beef {
+    background-color: red;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    width: 150px;
+    height: 30px;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:5px;
+    text-align: center;
+    color: white;
+    font-size: 18.75px;
+  }
+
+  .chicken {
+    background-color: yellow;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    width: 150px;
+    height: 30px;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:5px;
+    text-align: center;
+    color: black;
+    font-size: 18.75px;
+  }
+
+  .sushi {
+    background-color: teal;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    width: 150px;
+    height: 30px;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:5px;
+    text-align: center;
+    color: black;
+    font-size: 18.75px;
+  }
+
+  @media (max-width: 767px) {
+    .col-sm {
+        float: left;
+        width: 97%;
+    }
+  }
+  @media (min-width: 768px) and (max-width:991px) {
+    .col-chick-beef {
+        float: left; 
+        width:47%;
+    }
+    .col-sushi {
+        float: left;
+        width: 96%;
+    }
+  }
+  @media (min-width: 992px) {
+    .col-lg {
+        float: left;
+        width: 31%;
+    }
+
+  }
+
